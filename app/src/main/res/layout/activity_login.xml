@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/medi1"
     android:scrollbars="none"
+    android:background="@drawable/login_bg"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -107,14 +107,8 @@
                 android:id="@+id/btnSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:fontFamily=""
-                android:paddingStart="20dp"
-                android:paddingTop="10dp"
-                android:paddingEnd="20dp"
-                android:paddingBottom="20dp"
                 android:text="Sign In"
-                app:cornerRadius="10dp" />
+                app:cornerRadius="10dp"/>
 
         </FrameLayout>
 
