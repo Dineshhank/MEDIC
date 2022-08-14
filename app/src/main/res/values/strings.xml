@@ -10,4 +10,14 @@
     <string name="full_name" />
     <string name="medic">MEDIC</string>
 
+    <string-array name="names">
+        <item>Coimbatore</item>
+        <item>Tiruvannamalai</item>
+        <item>Pollachi</item>
+        <item>Trichy</item>
+        <item>Salem</item>
+    </string-array>
+
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
 </resources>

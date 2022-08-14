@@ -142,7 +142,7 @@
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/gyno"
+                        android:src="@drawable/gynos"
                         android:id="@+id/imageView3"/>
 
                     <TextView
@@ -181,7 +181,7 @@
                     <ImageView
                         android:layout_width="130dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/coronaa"
+                        android:src="@drawable/pediatric"
                         android:id="@+id/imageView4"/>
 
                     <TextView
@@ -259,7 +259,7 @@
                     <ImageView
                         android:layout_width="140dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/doctor"
+                        android:background="@drawable/entimg"
                         android:id="@+id/imageView6"/>
 
                     <TextView

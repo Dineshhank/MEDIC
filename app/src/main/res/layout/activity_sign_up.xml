@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="none"
+    android:background="@color/teal_700"
     tools:context=".SignUpActivity">
 
     <LinearLayout
@@ -177,7 +178,6 @@
                 android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
                 android:fontFamily="@font/comfortaabold"
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"

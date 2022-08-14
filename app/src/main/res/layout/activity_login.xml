@@ -133,9 +133,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/comfortaabold"
-                android:text="Sign Up"
-                android:textColor="@color/red"
+                android:text="Sign up"
+                 android:textColor="@color/teal_700"
                 android:textSize="14sp" />
 
         </LinearLayout>
