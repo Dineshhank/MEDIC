@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DHEENU/AndroidStudioProjects/MEDIC/app/src/main/res/layout/activity_general.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/DHEENU/AndroidStudioProjects/MEDIC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DHEENU/AndroidStudioProjects/MEDIC/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/DHEENU/AndroidStudioProjects/MEDIC/app/src/main/res/layout/fragment_search.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Dineshbabu/AndroidStudioProjects/MEDIC/app/src/main/res/drawable/btnstyle.xml" value="0.144" />
         <entry key="..\:/Users/Dineshbabu/AndroidStudioProjects/MEDIC/app/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="..\:/Users/Dineshbabu/AndroidStudioProjects/MEDIC/app/src/main/res/drawable/item_selector.xml" value="0.1" />
