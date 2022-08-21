@@ -22,7 +22,7 @@ public class payment extends AppCompatActivity implements PaymentResultListener 
         setContentView(R.layout.activity_payment);
         btPay = findViewById(R.id.pay);
         String sAmount="1";
-        int amount= Math.round(Float.parseFloat(sAmount)*100);
+        int amount= Math.round(Float.parseFloat(sAmount)*1);
         btPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
