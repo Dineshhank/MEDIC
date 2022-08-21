@@ -21,8 +21,8 @@ public class payment extends AppCompatActivity implements PaymentResultListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
         btPay = findViewById(R.id.pay);
-        String sAmount="100";
-        int amount= Math.round(Float.parseFloat(sAmount)*100);
+        String sAmount="001";
+        int amount= Math.round(Float.parseFloat(sAmount)*400);
         btPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
