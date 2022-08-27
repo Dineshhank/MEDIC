@@ -1,7 +1,5 @@
 package com.example.medic;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -31,10 +31,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                LoginActivity lg = LoginActivity.this;
-               //lg.validate(lg.etuser.getText().toString(),LoginActivity.this.etpass.getText().toString());
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+               lg.validate(lg.etuser.getText().toString(),LoginActivity.this.etpass.getText().toString());
+//                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                startActivity(intent);
+//                finish();
             }
         });
 
@@ -50,9 +50,9 @@ public class LoginActivity extends AppCompatActivity {
 
     }
     public void validate(String username, String password){
-        boolean equals = username.equals("hank");
+        boolean equals = username.equals("hank@gmail.com");
         //String str = BuildConfig.BUILD_TYPE;
-        if (equals &&  password.equals("hank")){
+        if (equals &&  password.equals("dheenu")){
             this.etuser.setText("");
             this.etpass.setText("");
             startActivity(new Intent(getApplicationContext(),MainActivity.class));

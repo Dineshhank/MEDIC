@@ -1,25 +1,24 @@
 package com.example.medic;
 
 import static com.example.medic.R.layout.activity_main;
-import static com.example.medic.R.layout.activity_sign_up;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.ViewFlipper;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
 
     ImageView button1, button2;
     ViewFlipper vflipper;
+    ImageButton imgbtn;
 
 
     //BottomNavigationView navigationView;
@@ -30,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(activity_main);
         this.button1 = (ImageView) findViewById(R.id.button3);
         this.button2 = (ImageView) findViewById(R.id.button4);
+        this.imgbtn = (ImageButton) findViewById(R.id.imageButton);
 
         Spinner myspinner = (Spinner) findViewById(R.id.spinner);
 
@@ -45,11 +45,22 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, profilepage.class);
+                Intent intent = new Intent(MainActivity.this, Appoinment.class);
                 startActivity(intent);
                 finish();
             }
         });
+
+        imgbtn.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, profilepage.class);
+                startActivity(intent);
+                finish();
+            }
+        }));
+
+
 
         ArrayAdapter<String> myadapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.names));
         myadapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
