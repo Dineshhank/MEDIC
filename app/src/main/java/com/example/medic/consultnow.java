@@ -1,7 +1,5 @@
 package com.example.medic;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class consultnow extends AppCompatActivity {
     ViewFlipper vflipper;
@@ -55,7 +55,7 @@ public class consultnow extends AppCompatActivity {
                         .setCancelable(false)
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
-                                Intent intent = new Intent(consultnow.this, payment.class);
+                                Intent intent = new Intent(consultnow.this, doctorlist.class);
                                 startActivity(intent);
                                 finish();
                             }
