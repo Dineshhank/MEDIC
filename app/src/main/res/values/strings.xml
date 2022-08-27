@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">MEDIC</string>
+    <string name="app_id">e5885a0219f748fa9ab2fc921a0dedfc</string>
+    <string name="agora_token"></string>
 
     <string name="Home">Home</string>
     <string name="Search">Page1</string>
